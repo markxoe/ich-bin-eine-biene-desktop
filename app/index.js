@@ -14,3 +14,11 @@ const animation = animejs({
 const animationRun = () => {
     animation.restart();
 };
+
+const init = () => {
+    let versionel = document.getElementById("versionandcopyright");
+    versionel.innerText =
+        "Version " + electron.app.getVersion() + " von Mark Oude Elberink";
+    console.log(process);
+};
+init();

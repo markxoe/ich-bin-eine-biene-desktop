@@ -29,3 +29,8 @@ h1 {
 #biene {
     font-size: 2rem;
 }
+
+#versionandcopyright {
+    opacity: 0.5;
+    font-size: 0.7rem;
+}

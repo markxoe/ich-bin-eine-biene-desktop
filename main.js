@@ -7,7 +7,7 @@ const createWindow = () => {
             enableRemoteModule: true,
         },
         frame: false,
-        width: 250,
+        width: 200,
         height: 150,
         icon: "build/icon.ico",
     });
