@@ -7,9 +7,9 @@ const createWindow = () => {
             enableRemoteModule: true,
         },
         frame: false,
-        width: 250,
+        width: 200,
         height: 150,
-        icon: "res/icon/ico-icon.ico",
+        icon: "build/icon.ico",
     });
     mainWindow.loadFile("app/index.html");
 };
