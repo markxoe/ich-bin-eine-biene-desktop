@@ -14,16 +14,7 @@
     },
     "build": {
         "productName": "Ich bin eine Biene",
-        "copyright": "Copyright © 2020",
-        "extraFiles": [
-            {
-                "from": "res/",
-                "to": "resources"
-            }
-        ],
-        "win": {
-            "icon": "res/icon/ico-icon.ico"
-        },
+        "copyright": "Copyright © 2020 Mark Oude Elberink",
         "nsis": {
             "oneClick": "false",
             "installerLanguages": [
