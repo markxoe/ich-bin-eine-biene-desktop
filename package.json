@@ -2,7 +2,7 @@
     "name": "ichbineinebiene-desktop",
     "description": "Eine App die dir sagt, dass sie eine Biene ist",
     "author": "Mark Oude Elberink",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "main.js",
     "devDependencies": {
         "electron": "10.1.2",
@@ -15,10 +15,12 @@
     "build": {
         "productName": "Ich bin eine Biene",
         "copyright": "Copyright © 2020",
-        "extraFiles": [{
-            "from": "res/",
-            "to": "resources"
-        }],
+        "extraFiles": [
+            {
+                "from": "res/",
+                "to": "resources"
+            }
+        ],
         "win": {
             "icon": "res/icon/ico-icon.ico"
         },
