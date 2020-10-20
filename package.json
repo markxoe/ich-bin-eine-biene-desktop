@@ -10,7 +10,7 @@
     },
     "scripts": {
         "start": "electron .",
-        "build": "electron-builder"
+        "build-win": "electron-builder --win"
     },
     "build": {
         "productName": "Ich bin eine Biene",
@@ -21,6 +21,15 @@
                 "de_DE",
                 "en_US"
             ]
+        },
+        "win": {
+            "target": [{
+                "target": "nsis",
+                "arch": [
+                    "x64",
+                    "ia32"
+                ]
+            }]
         }
     },
     "dependencies": {
