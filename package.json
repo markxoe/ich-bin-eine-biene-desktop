@@ -10,7 +10,7 @@
     },
     "scripts": {
         "start": "electron .",
-        "build-win": "electron-builder --win"
+        "build-win": "electron-builder --win --publish never"
     },
     "build": {
         "productName": "Ich bin eine Biene",
