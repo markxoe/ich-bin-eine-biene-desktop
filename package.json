@@ -10,11 +10,17 @@
     },
     "scripts": {
         "start": "electron .",
-        "build-win": "electron-builder --win --publish never"
+        "build-win": "electron-builder --win --publish never",
+        "publish-win": "electron-builder --win --publish always"
     },
     "build": {
         "productName": "Ich bin eine Biene",
         "copyright": "Copyright © 2020 Mark Oude Elberink",
+        "publish": [{
+            "provider": "github",
+            "owner": "markxoe",
+            "repo": "ich-bin-eine-biene-desktop"
+        }],
         "nsis": {
             "oneClick": "false",
             "installerLanguages": [
