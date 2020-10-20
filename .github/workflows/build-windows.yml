@@ -1,0 +1,15 @@
+name: Build for Windows
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Install
+        run: npm i
+
+      - name: Build
+        run: npm run build-win
