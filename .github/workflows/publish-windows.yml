@@ -1,4 +1,4 @@
-name: Build for Windows
+name: Publish for Windows
 
 on: push
 
@@ -12,4 +12,6 @@ jobs:
         run: npm i
 
       - name: Build
-        run: npm run build-win
+        run: npm run publish-win
+        env:
+          GH_TOKEN: ${{ secrets.github_token }}
