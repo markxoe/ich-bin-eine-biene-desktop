@@ -1,6 +1,8 @@
 name: Publish for Windows
 
-on: push
+on: 
+  push:
+    branches: [ master ]
 
 jobs:
   build:
